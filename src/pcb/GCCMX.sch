@@ -1,0 +1,877 @@
+EESchema Schematic File Version 4
+LIBS:GCCMX-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 5E3FB20B
+P 3900 2000
+F 0 "SW1" H 3900 2250 50  0000 C CNN
+F 1 "SW_SPST" H 3900 2150 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 3900 2300 50  0001 C CNN
+F 3 "~" H 3900 2300 50  0001 C CNN
+	1    3900 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 6000 4200 6000
+Wire Wire Line
+	4100 5500 4200 5500
+Wire Wire Line
+	4300 5500 4200 5500
+Wire Wire Line
+	4300 5000 4200 5000
+Wire Wire Line
+	4300 4500 4200 4500
+Wire Wire Line
+	4100 4000 4200 4000
+Wire Wire Line
+	4100 3500 4200 3500
+Wire Wire Line
+	4300 3000 4200 3000
+Wire Wire Line
+	4300 2000 4200 2000
+Wire Wire Line
+	4100 7000 4200 7000
+Wire Wire Line
+	4300 2500 4200 2500
+Wire Wire Line
+	4100 6500 4200 6500
+Wire Wire Line
+	4200 2000 4100 2000
+Connection ~ 4200 2000
+Wire Wire Line
+	4200 2500 4100 2500
+Connection ~ 4200 2500
+Wire Wire Line
+	4200 3000 4100 3000
+Connection ~ 4200 3000
+Connection ~ 4200 3500
+Wire Wire Line
+	4200 3500 4300 3500
+Connection ~ 4200 4000
+Wire Wire Line
+	4200 4000 4300 4000
+Connection ~ 4200 4500
+Wire Wire Line
+	4200 4500 4100 4500
+Connection ~ 4200 5000
+Wire Wire Line
+	4200 5000 4100 5000
+Connection ~ 4200 5500
+Connection ~ 4200 6000
+Wire Wire Line
+	4200 6000 4300 6000
+Connection ~ 4200 6500
+Wire Wire Line
+	4200 6500 4300 6500
+Wire Wire Line
+	3350 2500 3700 2500
+Wire Wire Line
+	3350 3000 3700 3000
+Wire Wire Line
+	3350 3500 3700 3500
+Wire Wire Line
+	3350 6000 3700 6000
+Wire Wire Line
+	3350 5000 3700 5000
+Wire Wire Line
+	3350 7000 3700 7000
+Wire Wire Line
+	3350 6500 3700 6500
+Wire Wire Line
+	3350 4000 3700 4000
+Wire Wire Line
+	3350 4500 3700 4500
+Wire Wire Line
+	4200 7000 4300 7000
+Connection ~ 4200 7000
+$Comp
+L power:GND #PWR01
+U 1 1 5E4ADEC9
+P 4200 7250
+F 0 "#PWR01" H 4200 7000 50  0001 C CNN
+F 1 "GND" H 4205 7077 50  0000 C CNN
+F 2 "" H 4200 7250 50  0001 C CNN
+F 3 "" H 4200 7250 50  0001 C CNN
+	1    4200 7250
+	1    0    0    -1  
+$EndComp
+Text Label 7200 2300 0    50   ~ 0
+Home
+Text Label 7200 2100 0    50   ~ 0
+Select
+Text Label 7200 3600 0    50   ~ 0
+R
+Text Label 7200 3500 0    50   ~ 0
+Y
+Text Label 7200 3200 0    50   ~ 0
+B
+Text Label 7200 2200 0    50   ~ 0
+Start
+Wire Wire Line
+	7200 2200 7550 2200
+Text Label 7200 2000 0    50   ~ 0
+ModY
+Wire Wire Line
+	7200 2000 7550 2000
+Text Label 7200 1900 0    50   ~ 0
+ModX
+Wire Wire Line
+	7200 1900 7550 1900
+Text Label 7200 3400 0    50   ~ 0
+LS
+Wire Wire Line
+	7200 3400 7550 3400
+Text Label 7200 3300 0    50   ~ 0
+MS
+Wire Wire Line
+	7200 3300 7550 3300
+Text Label 7200 2400 0    50   ~ 0
+C-D
+Wire Wire Line
+	7200 2400 7550 2400
+Text Label 7200 2600 0    50   ~ 0
+A
+Wire Wire Line
+	7200 2600 7550 2600
+Text Label 7200 2800 0    50   ~ 0
+C-R
+Wire Wire Line
+	7200 2800 7550 2800
+Text Label 7200 2500 0    50   ~ 0
+C-L
+Wire Wire Line
+	7200 2500 7550 2500
+Text Label 7200 2700 0    50   ~ 0
+C-U
+Wire Wire Line
+	7200 2700 7550 2700
+Text Label 7200 2900 0    50   ~ 0
+Up
+Wire Wire Line
+	7200 2900 7550 2900
+Text Label 7200 3100 0    50   ~ 0
+X
+Wire Wire Line
+	7200 3100 7550 3100
+Text Label 7200 1500 0    50   ~ 0
+L
+Wire Wire Line
+	7200 1500 7550 1500
+$Comp
+L power:GND #PWR02
+U 1 1 5E516B06
+P 8150 3750
+F 0 "#PWR02" H 8150 3500 50  0001 C CNN
+F 1 "GND" H 8155 3577 50  0000 C CNN
+F 2 "" H 8150 3750 50  0001 C CNN
+F 3 "" H 8150 3750 50  0001 C CNN
+	1    8150 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 1400 8150 1400
+Wire Wire Line
+	8050 1500 8150 1500
+Connection ~ 8150 1500
+Wire Wire Line
+	8150 1500 8150 1400
+Wire Wire Line
+	8050 1600 8150 1600
+Connection ~ 8150 1600
+Wire Wire Line
+	8150 1600 8150 1500
+Wire Wire Line
+	8050 1700 8150 1700
+Connection ~ 8150 1700
+Wire Wire Line
+	8150 1700 8150 1600
+Wire Wire Line
+	8050 1800 8150 1800
+Connection ~ 8150 1800
+Wire Wire Line
+	8150 1800 8150 1700
+Wire Wire Line
+	8050 1900 8150 1900
+Connection ~ 8150 1900
+Wire Wire Line
+	8150 1900 8150 1800
+Wire Wire Line
+	8050 2000 8150 2000
+Connection ~ 8150 2000
+Wire Wire Line
+	8150 2000 8150 1900
+Wire Wire Line
+	8050 2100 8150 2100
+Wire Wire Line
+	8150 2000 8150 2100
+Connection ~ 8150 2100
+Wire Wire Line
+	8150 2100 8150 2200
+Wire Wire Line
+	8050 2200 8150 2200
+Connection ~ 8150 2200
+Wire Wire Line
+	8150 2200 8150 2300
+Wire Wire Line
+	8050 2300 8150 2300
+Connection ~ 8150 2300
+Wire Wire Line
+	8150 2300 8150 2400
+Wire Wire Line
+	8050 2400 8150 2400
+Connection ~ 8150 2400
+Wire Wire Line
+	8150 2400 8150 2500
+Wire Wire Line
+	8050 2500 8150 2500
+Connection ~ 8150 2500
+Wire Wire Line
+	8150 2500 8150 2600
+Wire Wire Line
+	8050 2600 8150 2600
+Connection ~ 8150 2600
+Wire Wire Line
+	8150 2600 8150 2700
+Wire Wire Line
+	8050 2700 8150 2700
+Connection ~ 8150 2700
+Wire Wire Line
+	8150 2700 8150 2800
+Wire Wire Line
+	8050 2800 8150 2800
+Connection ~ 8150 2800
+Wire Wire Line
+	8150 2800 8150 2900
+Wire Wire Line
+	8050 2900 8150 2900
+Connection ~ 8150 2900
+Wire Wire Line
+	8150 2900 8150 3000
+Wire Wire Line
+	8050 3000 8150 3000
+Connection ~ 8150 3000
+Wire Wire Line
+	8150 3000 8150 3100
+Wire Wire Line
+	8050 3100 8150 3100
+Connection ~ 8150 3100
+Wire Wire Line
+	8150 3100 8150 3200
+Wire Wire Line
+	8050 3200 8150 3200
+Connection ~ 8150 3200
+Wire Wire Line
+	8150 3200 8150 3300
+Wire Wire Line
+	8050 3300 8150 3300
+Connection ~ 8150 3300
+Wire Wire Line
+	8150 3300 8150 3400
+Wire Wire Line
+	8050 3400 8150 3400
+Connection ~ 8150 3400
+Wire Wire Line
+	8150 3400 8150 3500
+Wire Wire Line
+	8050 3500 8150 3500
+Connection ~ 8150 3500
+Wire Wire Line
+	8150 3500 8150 3600
+Wire Wire Line
+	8050 3600 8150 3600
+$Comp
+L Connector_Generic:Conn_01x07 J3
+U 1 1 5E63EF3D
+P 8950 1950
+F 0 "J3" V 9050 2100 50  0000 L CNN
+F 1 "Debug Out" V 9050 1600 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 8950 1950 50  0001 C CNN
+F 3 "~" H 8950 1950 50  0001 C CNN
+	1    8950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J2
+U 1 1 5E643C1B
+P 8550 1850
+F 0 "J2" V 8650 2050 50  0000 C CNN
+F 1 "Debug In" V 8650 1700 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 8550 1850 50  0001 C CNN
+F 3 "~" H 8550 1850 50  0001 C CNN
+	1    8550 1850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J6
+U 1 1 5E71428B
+P 10100 1800
+F 0 "J6" V 10200 2000 50  0000 C CNN
+F 1 "USB-IN" V 10200 1650 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 10100 1800 50  0001 C CNN
+F 3 "~" H 10100 1800 50  0001 C CNN
+	1    10100 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J7
+U 1 1 5E71DAC9
+P 10500 1800
+F 0 "J7" V 10600 2000 50  0000 C CNN
+F 1 "USB-OUT" V 10600 1650 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 10500 1800 50  0001 C CNN
+F 3 "~" H 10500 1800 50  0001 C CNN
+	1    10500 1800
+	1    0    0    -1  
+$EndComp
+Text Label 7200 1800 0    50   ~ 0
+Right
+Text Label 7200 1600 0    50   ~ 0
+Left
+Wire Wire Line
+	7200 1600 7550 1600
+Wire Wire Line
+	7200 1800 7550 1800
+Wire Wire Line
+	7200 2300 7550 2300
+Wire Wire Line
+	7200 2100 7550 2100
+Wire Wire Line
+	7200 3600 7550 3600
+Wire Wire Line
+	7200 3500 7550 3500
+Wire Wire Line
+	7200 3200 7550 3200
+Text Label 7200 1400 0    50   ~ 0
+TXLED
+Wire Wire Line
+	7200 1400 7550 1400
+Text Label 7200 1700 0    50   ~ 0
+Down
+Wire Wire Line
+	7200 1700 7550 1700
+Text Label 3350 6000 0    50   ~ 0
+Home
+Text Label 3350 5000 0    50   ~ 0
+Select
+Text Label 3350 4500 0    50   ~ 0
+ModY
+Text Label 3350 4000 0    50   ~ 0
+ModX
+Text Label 3350 6500 0    50   ~ 0
+C-D
+Text Label 3350 7000 0    50   ~ 0
+C-L
+Text Label 3350 3500 0    50   ~ 0
+Right
+Text Label 3350 2500 0    50   ~ 0
+Left
+Text Label 3350 3000 0    50   ~ 0
+Down
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J8
+U 1 1 5E7460BC
+P 10500 5350
+F 0 "J8" V 10600 5550 50  0000 C CNN
+F 1 "Brook Out" V 10600 5200 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 10500 5350 50  0001 C CNN
+F 3 "~" H 10500 5350 50  0001 C CNN
+	1    10500 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VBUS #PWR04
+U 1 1 5E724363
+P 10100 4750
+F 0 "#PWR04" H 10100 4600 50  0001 C CNN
+F 1 "VBUS" H 10115 4923 50  0000 C CNN
+F 2 "" H 10100 4750 50  0001 C CNN
+F 3 "" H 10100 4750 50  0001 C CNN
+	1    10100 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5E724369
+P 9900 4750
+F 0 "#PWR03" H 9900 4500 50  0001 C CNN
+F 1 "GND" H 9905 4577 50  0000 C CNN
+F 2 "" H 9900 4750 50  0001 C CNN
+F 3 "" H 9900 4750 50  0001 C CNN
+	1    9900 4750
+	-1   0    0    1   
+$EndComp
+Text Label 9850 5050 0    50   ~ 0
+Up
+Wire Wire Line
+	9850 5050 10200 5050
+Wire Wire Line
+	10200 4850 10100 4850
+Wire Wire Line
+	10100 4850 10100 4750
+Wire Wire Line
+	9900 4750 9900 4850
+Wire Wire Line
+	9900 4950 10200 4950
+Text Label 9850 5150 0    50   ~ 0
+X
+Wire Wire Line
+	9850 5150 10200 5150
+Wire Wire Line
+	10200 5250 9800 5250
+Wire Wire Line
+	9800 5250 9800 4850
+Wire Wire Line
+	9800 4850 9900 4850
+Connection ~ 9900 4850
+Wire Wire Line
+	9900 4850 9900 4950
+Text Label 9850 5350 0    50   ~ 0
+LS
+Wire Wire Line
+	9850 5350 10200 5350
+Text Label 9850 5450 0    50   ~ 0
+R
+Wire Wire Line
+	9850 5450 10200 5450
+Text Label 9850 5550 0    50   ~ 0
+Home
+Wire Wire Line
+	9850 5550 10200 5550
+Text Label 9850 5650 0    50   ~ 0
+Left
+Wire Wire Line
+	9850 5650 10200 5650
+Text Label 9850 5750 0    50   ~ 0
+Down
+Wire Wire Line
+	9850 5750 10200 5750
+Text Label 11050 5050 2    50   ~ 0
+Z
+Wire Wire Line
+	11050 5050 10700 5050
+$Comp
+L power:VBUS #PWR05
+U 1 1 5E7320BA
+P 10800 4750
+F 0 "#PWR05" H 10800 4600 50  0001 C CNN
+F 1 "VBUS" H 10815 4923 50  0000 C CNN
+F 2 "" H 10800 4750 50  0001 C CNN
+F 3 "" H 10800 4750 50  0001 C CNN
+	1    10800 4750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5E7320C0
+P 11000 4750
+F 0 "#PWR06" H 11000 4500 50  0001 C CNN
+F 1 "GND" H 11005 4577 50  0000 C CNN
+F 2 "" H 11000 4750 50  0001 C CNN
+F 3 "" H 11000 4750 50  0001 C CNN
+	1    11000 4750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	10700 4850 10800 4850
+Wire Wire Line
+	10800 4850 10800 4750
+Wire Wire Line
+	11000 4750 11000 4950
+Wire Wire Line
+	11000 4950 10700 4950
+Text Label 11050 5150 2    50   ~ 0
+B
+Wire Wire Line
+	11050 5150 10700 5150
+Text Label 11050 5250 2    50   ~ 0
+MS
+Wire Wire Line
+	11050 5250 10700 5250
+Text Label 11050 5350 2    50   ~ 0
+Y
+Wire Wire Line
+	11050 5350 10700 5350
+Text Label 11050 5450 2    50   ~ 0
+Start
+Wire Wire Line
+	11050 5450 10700 5450
+Text Label 11050 5550 2    50   ~ 0
+Select
+Wire Wire Line
+	11050 5550 10700 5550
+Text Label 11050 5650 2    50   ~ 0
+Right
+Wire Wire Line
+	11050 5650 10700 5650
+Text Label 11050 5750 2    50   ~ 0
+ModX
+Wire Wire Line
+	4200 2000 4200 2500
+Wire Wire Line
+	4200 2500 4200 3000
+Wire Wire Line
+	4200 3000 4200 3500
+Wire Wire Line
+	4200 3500 4200 4000
+Wire Wire Line
+	4200 4000 4200 4500
+Wire Wire Line
+	4200 4500 4200 5000
+Wire Wire Line
+	4200 5000 4200 5500
+Wire Wire Line
+	4200 6000 4200 6500
+Wire Wire Line
+	4200 6500 4200 7000
+Wire Wire Line
+	4200 7000 4200 7250
+Wire Wire Line
+	4200 5500 4200 6000
+$Comp
+L Switch:SW_SPST SW2
+U 1 1 5E89D452
+P 3900 2500
+F 0 "SW2" H 3900 2750 50  0000 C CNN
+F 1 "SW_SPST" H 3900 2650 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 3900 2800 50  0001 C CNN
+F 3 "~" H 3900 2800 50  0001 C CNN
+	1    3900 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW3
+U 1 1 5E8A6FA1
+P 3900 3000
+F 0 "SW3" H 3900 3250 50  0000 C CNN
+F 1 "SW_SPST" H 3900 3150 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 3900 3300 50  0001 C CNN
+F 3 "~" H 3900 3300 50  0001 C CNN
+	1    3900 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW4
+U 1 1 5E8BA39C
+P 3900 3500
+F 0 "SW4" H 3900 3750 50  0000 C CNN
+F 1 "SW_SPST" H 3900 3650 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 3900 3800 50  0001 C CNN
+F 3 "~" H 3900 3800 50  0001 C CNN
+	1    3900 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW5
+U 1 1 5E8C3D38
+P 3900 4000
+F 0 "SW5" H 3900 4250 50  0000 C CNN
+F 1 "SW_SPST" H 3900 4150 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 3900 4300 50  0001 C CNN
+F 3 "~" H 3900 4300 50  0001 C CNN
+	1    3900 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW6
+U 1 1 5E8CD73D
+P 3900 4500
+F 0 "SW6" H 3900 4750 50  0000 C CNN
+F 1 "SW_SPST" H 3900 4650 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 3900 4800 50  0001 C CNN
+F 3 "~" H 3900 4800 50  0001 C CNN
+	1    3900 4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW7
+U 1 1 5E8D7052
+P 3900 5000
+F 0 "SW7" H 3900 5250 50  0000 C CNN
+F 1 "SW_SPST" H 3900 5150 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 3900 5300 50  0001 C CNN
+F 3 "~" H 3900 5300 50  0001 C CNN
+	1    3900 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW21
+U 1 1 5E8FECA9
+P 4500 6500
+F 0 "SW21" H 4500 6750 50  0000 C CNN
+F 1 "SW_SPST" H 4500 6650 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 4500 6800 50  0001 C CNN
+F 3 "~" H 4500 6800 50  0001 C CNN
+	1    4500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW22
+U 1 1 5E9086C7
+P 4500 7000
+F 0 "SW22" H 4500 7250 50  0000 C CNN
+F 1 "SW_SPST" H 4500 7150 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 4500 7300 50  0001 C CNN
+F 3 "~" H 4500 7300 50  0001 C CNN
+	1    4500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW10
+U 1 1 5E92F312
+P 3900 6500
+F 0 "SW10" H 3900 6750 50  0000 C CNN
+F 1 "SW_SPST" H 3900 6650 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 3900 6800 50  0001 C CNN
+F 3 "~" H 3900 6800 50  0001 C CNN
+	1    3900 6500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW11
+U 1 1 5E938C63
+P 3900 7000
+F 0 "SW11" H 3900 7250 50  0000 C CNN
+F 1 "SW_SPST" H 3900 7150 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 3900 7300 50  0001 C CNN
+F 3 "~" H 3900 7300 50  0001 C CNN
+	1    3900 7000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW12
+U 1 1 5E94269F
+P 4500 2000
+F 0 "SW12" H 4500 2250 50  0000 C CNN
+F 1 "SW_SPST" H 4500 2150 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 4500 2300 50  0001 C CNN
+F 3 "~" H 4500 2300 50  0001 C CNN
+	1    4500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW13
+U 1 1 5E955BAB
+P 4500 2500
+F 0 "SW13" H 4500 2750 50  0000 C CNN
+F 1 "SW_SPST" H 4500 2650 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 4500 2800 50  0001 C CNN
+F 3 "~" H 4500 2800 50  0001 C CNN
+	1    4500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW14
+U 1 1 5E95F62D
+P 4500 3000
+F 0 "SW14" H 4500 3250 50  0000 C CNN
+F 1 "SW_SPST" H 4500 3150 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 4500 3300 50  0001 C CNN
+F 3 "~" H 4500 3300 50  0001 C CNN
+	1    4500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW15
+U 1 1 5E969280
+P 4500 3500
+F 0 "SW15" H 4500 3750 50  0000 C CNN
+F 1 "SW_SPST" H 4500 3650 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 4500 3800 50  0001 C CNN
+F 3 "~" H 4500 3800 50  0001 C CNN
+	1    4500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW16
+U 1 1 5E97C683
+P 4500 4000
+F 0 "SW16" H 4500 4250 50  0000 C CNN
+F 1 "SW_SPST" H 4500 4150 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 4500 4300 50  0001 C CNN
+F 3 "~" H 4500 4300 50  0001 C CNN
+	1    4500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW17
+U 1 1 5E985EA3
+P 4500 4500
+F 0 "SW17" H 4500 4750 50  0000 C CNN
+F 1 "SW_SPST" H 4500 4650 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 4500 4800 50  0001 C CNN
+F 3 "~" H 4500 4800 50  0001 C CNN
+	1    4500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW18
+U 1 1 5E98F68C
+P 4500 5000
+F 0 "SW18" H 4500 5250 50  0000 C CNN
+F 1 "SW_SPST" H 4500 5150 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 4500 5300 50  0001 C CNN
+F 3 "~" H 4500 5300 50  0001 C CNN
+	1    4500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW20
+U 1 1 5E9A2B90
+P 4500 6000
+F 0 "SW20" H 4500 6250 50  0000 C CNN
+F 1 "SW_SPST" H 4500 6150 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 4500 6300 50  0001 C CNN
+F 3 "~" H 4500 6300 50  0001 C CNN
+	1    4500 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 3750 8150 3600
+Connection ~ 8150 3600
+Text Label 8700 2500 1    50   ~ 0
+TXLED
+Wire Wire Line
+	8750 2250 8700 2250
+Wire Wire Line
+	8700 2250 8700 2500
+$Comp
+L power:VBUS #PWR0101
+U 1 1 5E72D021
+P 10300 1700
+F 0 "#PWR0101" H 10300 1550 50  0001 C CNN
+F 1 "VBUS" H 10315 1873 50  0000 C CNN
+F 2 "" H 10300 1700 50  0001 C CNN
+F 3 "" H 10300 1700 50  0001 C CNN
+	1    10300 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 10300 1700
+$Comp
+L power:GND #PWR0102
+U 1 1 5E72EAED
+P 10300 2000
+F 0 "#PWR0102" H 10300 1750 50  0001 C CNN
+F 1 "GND" H 10305 1827 50  0000 C CNN
+F 2 "" H 10300 2000 50  0001 C CNN
+F 3 "" H 10300 2000 50  0001 C CNN
+	1    10300 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 10300 2000
+Wire Wire Line
+	7200 3000 7550 3000
+Text Label 7200 3000 0    50   ~ 0
+Z
+$Comp
+L Connector_Generic:Conn_02x23_Odd_Even J1
+U 1 1 5E4CE3C5
+P 7750 2500
+F 0 "J1" H 7800 4017 50  0000 C CNN
+F 1 "Inputs Female" H 7800 3926 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x23_P2.54mm_Vertical" H 7750 2500 50  0001 C CNN
+F 3 "~" H 7750 2500 50  0001 C CNN
+	1    7750 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW9
+U 1 1 5E8F47DC
+P 3900 6000
+F 0 "SW9" H 3900 6250 50  0000 C CNN
+F 1 "SW_SPST" H 3900 6150 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 3900 6300 50  0001 C CNN
+F 3 "~" H 3900 6300 50  0001 C CNN
+	1    3900 6000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW8
+U 1 1 5E8EAF7B
+P 3900 5500
+F 0 "SW8" H 3900 5750 50  0000 C CNN
+F 1 "SW_SPST" H 3900 5650 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 3900 5800 50  0001 C CNN
+F 3 "~" H 3900 5800 50  0001 C CNN
+	1    3900 5500
+	-1   0    0    -1  
+$EndComp
+Text Label 3350 5500 0    50   ~ 0
+Start
+Wire Wire Line
+	3350 5500 3700 5500
+Wire Wire Line
+	10700 5750 11050 5750
+Text Label 3350 2000 0    50   ~ 0
+L
+Wire Wire Line
+	3350 2000 3700 2000
+Wire Wire Line
+	5050 7000 4700 7000
+Wire Wire Line
+	5050 6500 4700 6500
+Wire Wire Line
+	5050 4500 4700 4500
+Wire Wire Line
+	5050 4000 4700 4000
+Wire Wire Line
+	5050 3500 4700 3500
+Wire Wire Line
+	5050 2500 4700 2500
+Wire Wire Line
+	5050 3000 4700 3000
+Wire Wire Line
+	5050 2000 4700 2000
+Wire Wire Line
+	5050 6000 4700 6000
+Text Label 5050 7000 2    50   ~ 0
+R
+Text Label 5050 6000 2    50   ~ 0
+LS
+Text Label 5050 2000 2    50   ~ 0
+A
+Text Label 5050 3000 2    50   ~ 0
+C-R
+Text Label 5050 2500 2    50   ~ 0
+C-U
+Text Label 5050 3500 2    50   ~ 0
+Up
+Text Label 5050 4000 2    50   ~ 0
+Z
+Text Label 5050 4500 2    50   ~ 0
+X
+Text Label 5050 6500 2    50   ~ 0
+Y
+Text Label 5050 5000 2    50   ~ 0
+B
+Wire Wire Line
+	5050 5000 4700 5000
+Text Label 5050 5500 2    50   ~ 0
+MS
+Wire Wire Line
+	5050 5500 4700 5500
+$Comp
+L Switch:SW_SPST SW19
+U 1 1 5E99904B
+P 4500 5500
+F 0 "SW19" H 4500 5750 50  0000 C CNN
+F 1 "SW_SPST" H 4500 5650 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX+PG1350" H 4500 5800 50  0001 C CNN
+F 3 "~" H 4500 5800 50  0001 C CNN
+	1    4500 5500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
